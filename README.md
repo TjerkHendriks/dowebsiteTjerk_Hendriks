@@ -1,6 +1,5 @@
 # Informaticagames
 Site voor informatica
 
-Deze site is gemaakt door Jaap en Abdullah
+Deze site is gemaakt door Tjerk en Jaap
 
-Onze site is te bezoeken op: https://www.informaticagames.ml/
