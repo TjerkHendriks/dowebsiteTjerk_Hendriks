@@ -1,0 +1,439 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(255,0,0,0.4);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+
+
+/*Einde*/
+
+
+
+/*footer*/
+
+
+
+.footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  z-index: 100;
+  background: linear-gradient(to right, rgba(4,148,244,1) 6%,rgba(16,234,27,1) 51%,rgba(255,99,102,1) 100%);
+  font-family: 'Baloo Chettan', cursive;
+
+
+}
+
+
+pfooter{
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 20px;
+}
+
+/*Einde*/
+
+.achtergrond{
+  z-index: -10;
+}
+
+
+/*nav*/
+
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 100, 0.6);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul{
+  background: white;
+
+}
+
+nav.text li a{
+  font-weight: bold;
+  color: yellow;
+
+}
+
+nav.textc li a{
+  font-weight: bold;
+  color: gray;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: blue;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.menu-icon{
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+display: none;
+}
+
+
+
+@media(max-width: 1190px){
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul{
+    max-height: 0px;
+    background: #000;
+
+  }
+
+  nav.black.ul {
+    background: #000;
+  }
+.showing{
+  max-height: 40em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+
+
+.menu-icon{
+  display: block;
+}
+
+}
+
+/*Einde*/
+
+
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#926239;
+  line-height:1.6;
+}
+
+.achtergrond{
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to right, rgba(2,2,2,1) 0%,rgba(2,2,2,1) 100%);
+}
+
+.achtergrond img{
+  position: relative;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+#PS4{
+  padding:20px;
+  background-color: #62cdf7;
+  color:#ffffff;
+  text-align:center;
+  border-left: 10px solid #003791;
+  font-family: PS4;
+  font-size: 60px;
+  z-index: 12;
+}
+
+mr{
+  font-family: Games;
+  font-size: 50px;
+}
+
+
+#Informatie{
+  text-align: center;
+  font-size: 21px;
+  color: black;
+  font-family: VarelaRoundRegular;
+  background-image: url(Images/PC.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+
+
+
+ps{
+  padding:20px;
+  background-color: #62cdf7;
+  color:#ffffff;
+  text-align:center;
+  font-family: PS4;
+  font-size: 60px;
+  z-index: 12;
+}
+
+
+.info{
+  font-size: 17px;
+}
+
+h{
+  color: black;
+  background-color: none;
+  font-size: 70px;
+}
+#info{
+  background-color: #cbf0f2;
+  text-align: center;
+  font-family: VarelaRoundRegular;
+  color: black;
+  font-size: 21px;
+}
+
+#Leeg{
+  background: linear-gradient(to bottom, #ffffff 0%,#cbf0f2 99%);
+}
+
+
+#Leeg2{
+  background: linear-gradient(to bottom, #cbf0f2 1%,#ffffff 83%);
+}
+
+video {
+    width: 70%;
+    height: auto;
+    border: 4px solid white;
+    border-radius: 5px;
+    max-width: 70%
+}
+
+.kopen{
+  position: relative;
+     padding-bottom: 26.25%;
+     padding-top: 35px;
+     height: 0;
+     overflow: hidden;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;
+     text-align: center;
+}
+
+.kopen iframe{
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#kopen{
+  background-image: url(Images/Portal_Kopen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: VarelaRoundRegular;
+  color: white;
+  font-size: 21px;
+  margin: auto
+}
+#kopen h{
+  color: #0198a5;
+}
+
+/*Fotos*/
+
+.SS1 img{
+  max-width: 50%;
+  max-height: 50%;
+  text-align:left;
+  border: 4px solid white;
+  border-radius: 4px;
+
+}
+
+
+/*fonts*/
+
+
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: MrDeHaviland;
+    src: url(Fonts/MrDeHaviland-Regular.ttf);
+}
+
+div {
+    font-family: MrDeHaviland;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: PathwayGothicOne;
+    src: url(Fonts/PathwayGothicOne-Regular.ttf);
+}
+
+div {
+    font-family: PathwayGothicOne;
+}
+
+
+
+@font-face {
+    font-family: Propaganda;
+    src: url(Fonts/PROPAGAN.ttf);
+}
+
+div {
+    font-family: Propaganda;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Manus;
+    src: url(Fonts/MyfrideRegular.otf);
+}
+
+div {
+    font-family: Manus;
+}
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: PS4;
+    src: url(Fonts/ps4.ttf);
+}
+
+div {
+    font-family: PS4;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: DKW;
+    src: url(Fonts/DKW.TTF);
+}
+
+div {
+    font-family: DKW;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: ConsoleWars;
+    src: url(Fonts/ConsoleWars.ttf);
+}
+
+div {
+    font-family: ConsoleWars;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Games;
+    src: url(Fonts/GamingLogos.ttf);
+}
+
+div {
+    font-family: Games;
+}
+
+
+
+@font-face {
+    font-family: VarelaRoundRegular;
+    src: url(Fonts/VarelaRoundRegular.ttf);
+}
+
+div {
+    font-family: VarelaRoundRegular;
+}

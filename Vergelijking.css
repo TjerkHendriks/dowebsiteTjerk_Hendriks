@@ -1,0 +1,306 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.achtergrond{
+  z-index: -10;
+}
+
+
+/*nav*/
+
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 100, 0.6);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul{
+  background: white;
+
+}
+
+nav.text li a{
+  font-weight: bold;
+  color: yellow;
+
+}
+
+nav.textc li a{
+  font-weight: bold;
+  color: gray;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: blue;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.menu-icon{
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+display: none;
+}
+
+
+
+@media(max-width: 1190px){
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul{
+    max-height: 0px;
+    background: #000;
+
+  }
+
+  nav.black.ul {
+    background: #000;
+  }
+.showing{
+  max-height: 40em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+
+
+.menu-icon{
+  display: block;
+}
+
+}
+
+/*Einde*/
+
+
+
+
+
+/*Tabel*/
+
+tdb{
+  font-weight: bold;
+
+}
+
+
+
+table, th, td{
+  padding: 3px;
+  margin: 10px;
+  z-index: 100;
+}
+
+
+th{
+  background-color: #4CAF50;
+  color: white;
+  z-index: 100;
+
+}
+
+
+th, td{
+  padding: 15px;
+  text-align: left;
+  z-index: 100;
+}
+
+table{
+  border-collapse:collapse;
+  z-index: 100;
+  position: relative;
+  display: inline-block;
+}
+
+#Tabel{
+  background-color: white;
+  z-index: -1000000;
+  position: relative;
+  display: inline-block;
+}
+
+/*Einde*/
+
+
+
+/*Achtergrond*/
+
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#926239;
+  line-height:1.6;
+}
+
+.achtergrond{
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.achtergrond img{
+  position: relative;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+/*Einde*/
+
+
+
+
+/*MiddenTekst*/
+
+#PS4{
+  padding:20px;
+  background-color: #62cdf7;
+  color:#ffffff;
+  text-align:center;
+  border-left: 10px solid #003791;
+  font-family: PS4;
+  font-size: 60px;
+  z-index: 12;
+  margin: 0;
+  font-family: NunitoRegular;
+
+}
+
+
+/*Einde*/
+
+
+
+
+/*Conclusie*/
+
+#Conclusie{
+  text-align: center;
+  border-top: 1px black;
+  z-index: 100;
+  position: relative;
+
+}
+
+h{
+  font-family: MrDeHaviland;
+  color: Black;
+  font-style: cursive;
+  font-synthesis: weight;
+  padding-bottom: 0px;
+  margin: 1px;
+  text-shadow: 0px 4px #cceae3;
+  z-index: 1;
+  font-size: 90px;
+}
+
+
+p{
+  text-shadow: none;
+  font-size: 20px;
+  color: black;
+  font-family: NunitoRegular;
+}
+
+
+
+
+
+/*Einde*/
+
+
+
+
+/*fonts*/
+
+
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: MrDeHaviland;
+    src: url(Fonts/MrDeHaviland-Regular.ttf);
+}
+
+div {
+    font-family: MrDeHaviland;
+}
+
+
+/*Volgende*/
+@font-face {
+    font-family: NunitoRegular;
+    src: url(Fonts/NunitoRegular.ttf);
+}
+
+div {
+    font-family: NunitoRegular;
+}
+
+
+@font-face {
+    font-family: AcmeRegular;
+    src: url(Fonts/AcmeRegular.ttf);
+}
+
+div {
+    font-family: AcmeRegular;
+}

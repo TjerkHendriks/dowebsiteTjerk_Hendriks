@@ -1,0 +1,440 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(255,0,0,0.4);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+
+
+/*Einde*/
+
+
+/*footer*/
+
+
+
+.footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  z-index: 100;
+  background: linear-gradient(to right, rgba(4,148,244,1) 6%,rgba(16,234,27,1) 51%,rgba(255,99,102,1) 100%);
+  font-family: 'Baloo Chettan', cursive;
+
+
+}
+
+
+pfooter{
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 20px;
+}
+
+/*Einde*/
+
+
+
+.achtergrond{
+  z-index: -10;
+}
+
+
+/*nav*/
+
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 100, 0.6);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul{
+  background: white;
+
+}
+
+nav.text li a{
+  font-weight: bold;
+  color: yellow;
+
+}
+
+nav.textc li a{
+  font-weight: bold;
+  color: gray;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: blue;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.menu-icon{
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+display: none;
+}
+
+
+
+@media(max-width: 1190px){
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul{
+    max-height: 0px;
+    background: #000;
+
+  }
+
+  nav.black.ul {
+    background: #000;
+  }
+.showing{
+  max-height: 40em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+
+
+.menu-icon{
+  display: block;
+}
+
+}
+
+/*Einde*/
+
+
+
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#926239;
+  line-height:1.6;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:106%;
+  overflow:hidden;
+  display: inline-block;
+  margin: 0 auto;
+  max-height: 106%;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+  position: absolute;
+  display:inline;
+  margin: 0 auto;
+  background-image: url(https://netdna.webdesignerdepot.com/uploads/2013/07/icons-animation.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stopfade {
+   opacity: .5;
+}
+
+p1 {
+  font-family: Manus;
+  color: #ffffff;
+  font-size: 35px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+  font-style: cursive;
+  font-synthesis: weight;
+  padding-bottom: 0px;
+  margin: 1px;
+  z-index: 1;
+}
+
+h1 {
+  font-family: MrDeHaviland;
+  color: white;
+  font-style: cursive;
+  font-synthesis: weight;
+  padding-bottom: 0px;
+  margin: 1px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+#showcase{
+  background-color: white;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+  z-index: 12;
+}
+
+#showcase h1{
+  font-size:120px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.6);
+  line-height:1.2;
+  z-index: 13;
+}
+
+#showcase p{
+  font-size:40px;
+  z-index: 12;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#926239;
+  border:#926239 2px solid;
+  padding:10px 20px;
+  border-radius:30px;
+  margin-top:20px;
+  z-index: 12;
+}
+
+#showcase .button:hover{
+  background:#926239;
+  color:#fff;
+  z-index: 12;
+}
+
+
+pd{
+font-family: DKW;
+
+}
+
+box-2{
+  font-family: serif;
+
+}
+
+p3{
+  font-family: serif;
+}
+
+ pa{
+   margin-left: 0px;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: VarelaRoundRegular;
+   margin: 0px;
+   text-align: justify;
+   padding: 20px;
+   text-align: center;
+
+
+ }
+
+#section-a{
+  background-color: #c9dcdd;
+  border-left: 3px solid blue;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+#section-a .box-4{
+  padding:20px;
+  background-color: #926239;
+  color:#fff;
+  text-align:center;
+  z-index: 12;
+}
+
+#section-b{
+  padding:20px;
+  background:#f4f4f4;
+  text-align:center;
+  z-index: 12;
+}
+
+#section-c{
+  display:flex;
+  text-align: center;
+  z-index: 13;
+  font-family: VarelaRoundRegular;
+}
+
+p{
+  text-align: center;
+}
+
+.box-3{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#section-c .box-1, #section-c .box-3{
+  background:#926239;
+  font-family: cursive;
+  color:#fff;
+  z-index: 12;
+}
+
+#section-c .box-2{
+  background:#f9f9f9;
+  z-index: 12;
+}
+
+p{
+  font-family: VarelaRoundRegular;
+}
+
+
+
+/*fonts*/
+
+
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: MrDeHaviland;
+    src: url(Fonts/MrDeHaviland-Regular.ttf);
+}
+
+div {
+    font-family: MrDeHaviland;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: PathwayGothicOne;
+    src: url(Fonts/PathwayGothicOne-Regular.ttf);
+}
+
+div {
+    font-family: PathwayGothicOne;
+}
+
+
+
+@font-face {
+    font-family: Propaganda;
+    src: url(Fonts/PROPAGAN.ttf);
+}
+
+div {
+    font-family: Propaganda;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Manus;
+    src: url(Fonts/MyfrideRegular.otf);
+}
+
+div {
+    font-family: Manus;
+}
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: DKW;
+    src: url(Fonts/DKW.TTF);
+}
+
+div {
+    font-family: DKW;
+}
+
+
+
+@font-face {
+    font-family: VarelaRoundRegular;
+    src: url(Fonts/VarelaRoundRegular.ttf);
+}
+
+div {
+    font-family: VarelaRoundRegular;
+}

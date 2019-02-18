@@ -1,0 +1,40 @@
+body {
+  background-color: #38393d;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background: #38393d;
+  font-family: Propaganda;
+
+
+}
+
+
+h1 {
+  font-family: Propaganda;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+
+
+
+/*Fonts*/
+
+
+@font-face {
+    font-family: Propaganda;
+    src: url(PROPAGAN.ttf);
+}
+
+div {
+    font-family: Propaganda;
+}

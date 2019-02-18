@@ -1,0 +1,128 @@
+h1{
+  font-size: 30px;
+}
+
+
+#contact{
+  color: black;
+  font-size: 19px;
+}
+
+.achtergrond{
+  z-index: -10;
+}
+
+
+/*nav*/
+
+
+.logo{
+  position: fixed;
+  float: left;
+  margin: 16px 36px;
+  color: gray;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul{
+  list-style: none;
+  background: rgba(0, 0, 100, 0.6);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul{
+  background: white;
+
+}
+
+nav.text li a{
+  font-weight: bold;
+  color: yellow;
+
+}
+
+nav.textc li a{
+  font-weight: bold;
+  color: gray;
+
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  color: blue;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.menu-icon{
+width: 100%;
+background: #000;
+text-align: right;
+box-sizing: border-box;
+padding: 15px 24px;
+cursor: pointer;
+color: #fff;
+display: none;
+}
+
+
+
+@media(max-width: 1190px){
+  .logo{
+    position: fixed;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul{
+    max-height: 0px;
+    background: #000;
+
+  }
+
+  nav.black.ul {
+    background: #000;
+  }
+.showing{
+  max-height: 40em;
+}
+
+nav ul li{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+}
+
+
+
+.menu-icon{
+  display: block;
+}
+
+}
+
+/*Einde*/

@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.61);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.61);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+
+
+/*footer*/
+
+
+
+.footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  z-index: 100;
+  background: linear-gradient(to right, rgba(4,148,244,1) 6%,rgba(16,234,27,1) 51%,rgba(255,99,102,1) 100%);
+  font-family: 'Baloo Chettan', cursive;
+
+
+}
+
+
+pfooter{
+  font-family: Baloo;
+  font-size: 20px;
+}
+
+/*Einde*/
+
+
+
+
+/*Volgende*/
+@font-face {
+    font-family: Quicksand;
+    src: url(Fonts/Quicksand-Light.ttf);
+}
+
+div {
+    font-family: Quicksand;
+}
+
+@font-face {
+    font-family: Baloo;
+    src: url(Fonts/BalooChettanRegular.ttf);
+}
+
+div {
+    font-family: Baloo;
+}
+
+
+
+
+@font-face {
+    font-family: VarelaRoundRegular;
+    src: url(Fonts/VarelaRoundRegular.ttf);
+}
+
+div {
+    font-family: VarelaRoundRegular;
+}
+
+lia {
+    font-family: VarelaRoundRegular;
+    font-weight: bold;
+}
